@@ -1,4 +1,4 @@
-# Imagem Ubuntu
+# Imagem Ubuntu这个部分基本上他通用，不用调试
 data "aws_ami" "ubuntu" {
   most_recent = true
 
