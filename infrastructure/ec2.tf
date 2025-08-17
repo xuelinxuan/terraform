@@ -17,6 +17,7 @@ data "aws_ami" "ubuntu" {
 
 
 # Instância EC2
+#ssh 需要自己下载
 resource "aws_instance" "airflow" {
   ami                         = data.aws_ami.ubuntu.id
   instance_type               = "t3.medium"
