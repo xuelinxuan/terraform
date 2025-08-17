@@ -1,4 +1,5 @@
 resource "aws_s3_bucket" "dl" {
+#如果重名了就重新取一个
   bucket = "datalake-ney-igti-edc-tf"
   acl    = "private"
 
