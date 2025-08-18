@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "dl" {
 #如果重名了就重新取一个
-  bucket = "datalake-ney-igti-edc-tf"
+  bucket = "datalake-linxuanxue-tf"
   acl    = "private"
 
   tags = {
@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "dl" {
 
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "igti-ney-streaming-bucket"
+  bucket = "linxuan-stream-bucket"
   acl    = "private"
 
   tags = {
